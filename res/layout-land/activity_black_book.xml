@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".BlackBookActivity"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/contacts"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/contacts_listView"
+        android:layout_width="match_parent"
+        android:layout_height="178dp" >
+    </ListView>
+    
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/new_button" >
+    </Button>
+    
+</LinearLayout>
